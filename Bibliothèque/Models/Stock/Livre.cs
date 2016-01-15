@@ -7,11 +7,14 @@ using Bibliothèque.Models.Misc;
 namespace Bibliothèque.Models.Stock
 {
     public class Livre : ProduitBase
-    {
+    {   
+        public int ID { get; set; }
+
         public PersonneBase Auteur { get; set; }
 
         public string Editeur { get; set; }
 
+        /*
         public Livre(string nomLivre, string nomAuteur, string prenomAuteur) : base()
         {
             Designation = nomLivre;
@@ -21,6 +24,7 @@ namespace Bibliothèque.Models.Stock
 
             TvaTaux = Tva.Taux.REDUITE;
         }
+        */
 
         public override string Affiche()
         {

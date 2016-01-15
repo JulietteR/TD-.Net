@@ -138,17 +138,22 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CatalogueController.cs" />
+    <Compile Include="Controllers\EmpruntController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OuvrageController.cs" />
     <Compile Include="Controllers\StockController.cs" />
     <Compile Include="Controllers\UtilisateurController.cs" />
+    <Compile Include="DAL\LibraryContext.cs" />
+    <Compile Include="DAL\LibraryInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Misc\Membre.cs" />
     <Compile Include="Models\Outils\Lorem.cs" />
     <Compile Include="Models\Outils\Password.cs" />
     <Compile Include="Models\Outils\Person.cs" />
     <Compile Include="Models\Outils\Random.cs" />
+    <Compile Include="Models\Stock\Emprunt.cs" />
     <Compile Include="Models\Stock\IProduit.cs" />
     <Compile Include="Models\Stock\Livre.cs" />
     <Compile Include="Models\Misc\Tva.cs" />
@@ -172,8 +177,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.bootstrap.min.js.map" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Catalogue\Index.cshtml" />
-    <Content Include="Views\Utilisateur\Index.cshtml" />
     <Content Include="Views\Ouvrage\Index.cshtml" />
+    <Content Include="Views\Utilisateur\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

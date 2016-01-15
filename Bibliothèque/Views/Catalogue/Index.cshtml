@@ -1,4 +1,7 @@
-﻿
+﻿@using System.Globalization
+@using Bibliothèque.Models.Stock;
+
+@model List<Livre>
 @{
     ViewBag.Title = "Index";
 }
@@ -12,7 +15,6 @@
             <tr class="row" style="text-align: center">
                 <th class="col-xs-3">Titre de l'ouvrage</th>
                 <th class="col-xs-3">Auteur</th>
-                <th class="col-xs-3">ISBN</th>
                 <th class="col-xs-3">Etat</th>
             </tr>
         </thead>
@@ -23,16 +25,12 @@
             </tr>
         </tfoot>
         <tbody>
-         @* @foreach (var produit in Model.Stock)
-            {
-                <tr>
-                    <td>@produit.Affiche()</td>
-                    <td style="text-align: right">@produit.Quantite</td>
-                    <td style="text-align: right">@string.Format("{0:C2}", produit.PrixUnitaireHt) </td>
-                    <td style="text-align: right">@string.Format("{0:C2}", produit.Quantite * produit.PrixUnitaireHt)</td>
-                </tr>
-            }
-            *@
+       @foreach (var livre in Model)
+       {
+        @Html.DisplayFor(modelItem => livre.nomLivre)
+        @Html.DisplayFor(modelItem => livre.nomAuteur)
+        @Html.DisplayFor(modelItem => livre.prenomAuteur)
+       }
         </tbody>
     </table>
 
