@@ -31,3 +31,15 @@ D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\System.
 D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\System.Web.Mvc.xml
 D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\obj\Debug\Bibliothèque.dll
 D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\obj\Debug\Bibliothèque.pdb
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\MySql.Data.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\MySql.Data.Entity.EF6.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\fr\System.Web.Razor.resources.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\fr\System.Web.Webpages.resources.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\fr\System.Web.Webpages.Deployment.resources.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\fr\System.Web.Webpages.Razor.resources.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\fr\System.Web.Helpers.resources.dll
+D:\Documents\Visual Studio 2015\Projects\Bibliothèque\Bibliothèque\bin\fr\System.Web.Mvc.resources.dll
