@@ -5,8 +5,8 @@
 
 <h2>Bienvenue sur le site de la Bibliothèque !</h2>
 
-<a href="Utilisateur/Index" class="btn btn-success btn-default">S'indentifier</a>
-<a href="Catalogue/Index" class="btn btn-primary btn-default">Accéder au catalogue</a>
+<div class="btn btn-success btn-default">@Html.ActionLink("Se connecter", "Index", "Utilisateur/Index")</div>
+<div class="btn btn-primary btn-default">@Html.ActionLink("Accéder au catalogue", "Index", "Ouvrage/Index")</div>
 
 
 
