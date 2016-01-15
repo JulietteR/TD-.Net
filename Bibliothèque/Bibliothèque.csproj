@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CatalogueController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StockController.cs" />
     <Compile Include="Global.asax.cs">
@@ -168,6 +169,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Scripts\jquery.validate.unobtrusive.bootstrap.min.js.map" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Catalogue\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

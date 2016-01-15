@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Catalogue</h2>
+
+
+<div>
+    <table>
+        <thead>
+            <tr class="row" style="text-align: center">
+                <th class="col-xs-3">Titre de l'ouvrage</th>
+                <th class="col-xs-3">Auteur</th>
+                <th class="col-xs-3">ISBN</th>
+                <th class="col-xs-3">Etat</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr style="font-weight: bold">
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+        <tbody>
+         @* @foreach (var produit in Model.Stock)
+            {
+                <tr>
+                    <td>@produit.Affiche()</td>
+                    <td style="text-align: right">@produit.Quantite</td>
+                    <td style="text-align: right">@string.Format("{0:C2}", produit.PrixUnitaireHt) </td>
+                    <td style="text-align: right">@string.Format("{0:C2}", produit.Quantite * produit.PrixUnitaireHt)</td>
+                </tr>
+            }
+            *@
+        </tbody>
+    </table>
+
+</div>
+
+
+
